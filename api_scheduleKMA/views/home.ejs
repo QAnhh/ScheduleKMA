@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="demo">
+    	
+	</div>
+
+	<script type="text/javascript" charset="utf-8">
+		var string = '<%= data %>';
+		string = string.replace(/&#34;/g,'"');
+		var array = JSON.parse(string);
+		console.log(array);
+		
+		
+		
+	</script>
+	
+</body>
+</html>
